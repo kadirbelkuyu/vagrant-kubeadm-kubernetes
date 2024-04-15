@@ -1,0 +1,44 @@
+repo_name: kadirbelkuyu/vagrant-kubeadm-kubernetes
+report_id: 657f9156a85d0fc323079dab9f947e0b
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-15T07:25:28+00:00'
+requested_by: techiescamp
+provider: github
+branch: main
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kadirbelkuyu/vagrant-kubeadm-kubernetes
+  detection_source: Repo Metadata
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/kadirbelkuyu/vagrant-kubeadm-kubernetes/blob/main/Vagrantfile
+  detection_source: Vagrantfile
+  last_updated_by: Bibin Wilson
+  last_updated_on: 2021-05-18 10:43:40.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/kadirbelkuyu/vagrant-kubeadm-kubernetes
+  detection_source: Repo Metadata
